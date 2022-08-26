@@ -1,0 +1,351 @@
+@charset "utf-8";
+@import url(./reset.css);
+@font-face {
+    font-family: 'Uiyeun';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105@1.1/Uiyeun.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #777;
+    font-family: Uiyeun;
+}
+.wrap {
+    /* overflow: hidden; */
+    max-width: 768px;
+    width: 100%;
+    margin: auto;
+    background-color: #eee;
+}
+
+.wrap strong {
+    color: #FF3D00;
+}
+
+header {
+    padding-top: 20px;
+    position: fixed;
+    max-width: 768px;
+    /* width: 100%; */
+    z-index: 200000;
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+}
+
+header .logo {
+    width: 25%;
+    margin:0 10px;
+}
+
+.logo img {
+    width: 100%;
+    
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+}
+
+header div a {
+    padding-right: 10px;
+    font-size: 1.5rem;
+    color: #FF3D00;
+}
+
+header div button {
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+    background-color: transparent;
+    border: 0;
+    position: relative;
+}
+
+header div button span {
+    border: 2px solid #FF3D00;
+    border-radius: 1rem;
+    background-color: #FF3D00;
+    display: flex;
+    margin: 3px;
+    top: 10%;
+}
+
+.sec1 {
+    position: relative;
+    height: 100vh;
+    background-image: url(./img/Untitled-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.sec1 .hs1 {
+    text-align: center;
+    padding-top: 25%;
+    font-size: 4rem;
+}
+
+
+
+.sec1 .btn_1 {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-size: 50px;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+
+
+.sec2 {
+    position: relative;
+    background-image: url(./img/test.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+
+.sec2 li {
+    position: absolute;
+    text-align: center;
+    left: 55%;
+    bottom: 50px;
+    font-size: 2.5rem;
+    color: rgb(26, 26, 26);
+
+}
+
+
+.sec2  a {
+    position: absolute;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    top: 50px;
+    right: 10%;
+}
+
+
+.sec2 nav {
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+
+}
+
+.sec2 nav button {
+    font-size: 2rem;
+    width: 100%;
+    height: 50px;
+    color: white;
+    border: transparent;
+    background-color: #FF3D00;
+    font-family: Uiyeun;
+}
+
+
+
+.sec3 h2 {
+    padding: 10%;
+    text-align: center;
+    font-size: 2rem;
+   line-height: 2;
+}
+
+.sec3 div {
+    padding: 5%;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: white;
+    line-height: 30px;
+}
+
+.sec4 {
+    position: relative;
+    max-width: 768px;
+    padding-top: 5%;
+}
+
+.sec4 .menu {
+    background-color: white;
+    max-width: 768px;
+    height: 80vh;
+    padding-top: 10%;
+}
+
+.sec4 img {
+    position: absolute;
+    width: 20%;
+    right: 0;
+    top: 10px;
+}
+
+.sec4 .but_3 {
+    position: absolute;
+    border-radius: 1rem;
+    border: 0;
+    width: 30%;
+    height: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 1rem;
+}
+
+.sec4 div a {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 1rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+
+}
+
+.sec4 div a button {
+    border: none;
+    background-color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.sec4 .menu1 {
+    position: absolute;
+    height: 300px;
+    width: 40%;
+    background-color: #FFEEE4;
+    border-radius: 1rem;
+    background-image: url(./img/img_about_bg01.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    top: 10%;
+    left: 5%;
+}
+
+.sec4 div ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec4 div p {
+    font-size: 1rem;
+}
+
+.sec4 .menu2 {
+    position: absolute;
+    height: 300px;
+    width: 40%;
+    background-color: #FFEEE4;
+    border-radius: 1rem;
+    background-image: url(./img/img_about_bg02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    right: 5%;
+}
+
+.sec4 .menu3 {
+    position: absolute;
+    width: 40%;
+    height: 300px;
+    background-color: #FFEEE4;
+    border-radius: 1rem;
+    background-image: url(./img/img_about_bg03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    bottom: 10%;
+    left: 5%;
+}
+
+.sec4 .menu4 {
+    position: absolute;
+    width: 40%;
+    height: 300px;
+    background-color: #FFEEE4;
+    border-radius: 1rem;
+    background-image: url(./img/img_about_bg04.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    bottom: 5%;
+    right: 5%;
+}
+
+
+.fot {
+    height: 200px;
+}
+
+.fot .fot1 {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+.fot .fot2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+   
+}
+.fot .fot2 a {
+    border: 1px solid black;
+    width: 30%;
+    height: 50px;
+    border-radius: 1rem;
+    margin: auto;
+}
+.fot .fot2 .img1 {
+    background-image: url(./img/img_snsbar_instagram.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fot .fot2 .img2 {
+    background-image: url(./img/img_snsbar_kakao.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
